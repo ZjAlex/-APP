@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/rankbj"
+    android:orientation="vertical"
+    android:visibility="visible"
+    tools:context="org.tensorflow.demo.MtcnnAlignActivity">
+
+    <Button
+        android:id="@+id/photo_mtcnn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="485dp"
+        android:text="选择图片" />
+
+    <Button
+        android:id="@+id/align_mtcnn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="188dp"
+        android:layout_marginTop="485dp"
+        android:text="开始检测" />
+
+    <TextView
+        android:id="@+id/result_text_mtcnn"
+        android:layout_width="123dp"
+        android:layout_height="60dp"
+        android:layout_alignStart="@+id/photo_mtcnn"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="47dp"
+        android:layout_marginTop="414dp"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:id="@+id/show_image_mtcnn"
+        android:layout_width="match_parent"
+        android:layout_height="406dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp" />
+
+
+
+
+</RelativeLayout>

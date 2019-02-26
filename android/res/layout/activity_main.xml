@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/beijing"
+    tools:context="org.tensorflow.demo.MainActivity">
+
+    <Button
+        android:id="@+id/m_quit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="4dp"
+
+        android:text="退出" />
+
+    <Button
+        android:id="@+id/m_fd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="58dp"
+        android:layout_marginTop="63dp"
+        android:text="人脸检测" />
+
+    <Button
+        android:id="@+id/m_rank"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/m_fd"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="63dp"
+        android:text="颜值评分" />
+
+    <Button
+        android:id="@+id/m_align"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/m_quit"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="130dp"
+        android:layout_marginEnd="50dp"
+        android:text="关键点检测" />
+
+    <Button
+        android:id="@+id/m_face_ver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/m_quit"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="424dp"
+        android:layout_marginEnd="62dp"
+        android:text="人脸验证" />
+
+    <Button
+        android:id="@+id/m_face_cls"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/m_quit"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="424dp"
+        android:layout_marginEnd="-54dp"
+        android:text="人脸识别" />
+
+    <Button
+        android:id="@+id/m_align_detect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/m_quit"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="130dp"
+        android:layout_marginEnd="-83dp"
+        android:text="  关键点检测\n
+  (摄像头)" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="1dp"
+        android:text="ALEX" />
+
+</RelativeLayout>
